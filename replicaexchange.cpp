@@ -1,4 +1,4 @@
-/*
+/* vsremd
  * This file is part of the GROMACS molecular simulation package.
  *
  * Copyright 1991- The GROMACS Authors
