@@ -13,4 +13,10 @@ PATH: gromacs-2022.5/src/gromacs/mdrun/replicaexchange.cpp
 
 https://manual.gromacs.org/2022.5/install-guide/index.html
 
-   
+4) Test
+
+unzip vsremd-test-gmx2022.5-model.zip
+
+cd vsremd-test-gmx2022.5-model
+
+mpirun -np 40 gmx_mpi mdrun -v -deffnm md -multidir md0 md1 md2 md3 md4 -replex 10
